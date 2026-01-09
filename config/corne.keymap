@@ -91,7 +91,7 @@
             bindings = <
 &kp TAB           &kp EXCL       &kp AT          &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp SINGLE_QUOTE     &mmv MOVE_LEFT  &mmv MOVE_DOWN         &mmv MOVE_UP       &mmv MOVE_RIGHT  &mkp LCLK         &mkp RCLK
 &kp LCTRL         &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES    &kp SQT         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp GRAVE
-&kp C_PLAY_PAUSE  &kp C_PREV     &kp C_NEXT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp GRAVE            &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW       &kp RIGHT_ARROW  &kp C_MUTE        &kp C_MUTE
+&kp C_PLAY_PAUSE  &kp C_PREV     &kp C_NEXT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp GRAVE            &msc SCRL_LEFT  &msc SCRL_DOWN         &msc SCRL_UP       &msc SCRL_RIGHT  &kp C_MUTE        &kp C_MUTE
                                                  &kp LGUI          &trans                &kp SPACE            &kp RET         &trans                 &kp RALT
             >;
         };
