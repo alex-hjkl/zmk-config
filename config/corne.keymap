@@ -13,8 +13,8 @@
 / {
     macros {
         bt_0: bt_profile_0 {
-            label = "BT_0";
             compatible = "zmk,behavior-macro";
+            display-name = "BT_0";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
@@ -26,8 +26,8 @@
         };
 
         bt_1: bt_profile_1 {
-            label = "BT_1";
             compatible = "zmk,behavior-macro";
+            display-name = "BT_1";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
@@ -39,8 +39,8 @@
         };
 
         bt_2: bt_profile_2 {
-            label = "BT_2";
             compatible = "zmk,behavior-macro";
+            display-name = "BT_2";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
@@ -52,8 +52,8 @@
         };
 
         bt_3: bt_profile_3 {
-            label = "BT_3";
             compatible = "zmk,behavior-macro";
+            display-name = "BT_3";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
@@ -65,8 +65,8 @@
         };
 
         bt_4: bt_profile_4 {
-            label = "BT_4";
             compatible = "zmk,behavior-macro";
+            display-name = "BT_4";
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;

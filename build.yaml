@@ -1,8 +1,9 @@
-# `nice_nano` is the current nice!nano v2 default revision in ZMK.
-# If your controllers are nice!nano v1, change both entries to `nice_nano@1`.
+# Use the ZMK-specific nice!nano board variant so shield integrations like
+# underglow are wired in correctly.
+# If your controllers are nice!nano v1, change both entries to `nice_nano@1//zmk`.
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right
