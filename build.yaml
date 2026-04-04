@@ -1,8 +1,8 @@
-# `nice_nano` is the current nice!nano v2 default revision in ZMK.
-# If your controllers are nice!nano v1, change both entries to `nice_nano@1`.
+# Use the ZMK board variant on current main so BLE/battery features stay enabled.
+# If your controllers match nice!nano v1 instead, change both entries to `nice_nano@1//zmk`.
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right
