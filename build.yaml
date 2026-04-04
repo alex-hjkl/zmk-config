@@ -1,8 +1,7 @@
-# Use the ZMK board variant on current main so BLE/battery features stay enabled.
-# PinMicro clones can behave closer to nice!nano v1 than the current v2 default.
+# Custom board for the PinMicro NRF52840 controller used in this Corne kit.
 ---
 include:
-  - board: nice_nano@1//zmk
+  - board: pinmicro_nrf52840
     shield: corne_left
-  - board: nice_nano@1//zmk
+  - board: pinmicro_nrf52840
     shield: corne_right

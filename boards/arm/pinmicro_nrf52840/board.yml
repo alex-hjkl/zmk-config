@@ -1,0 +1,5 @@
+board:
+  name: pinmicro_nrf52840
+  vendor: pinmicro
+  socs:
+    - name: nrf52840
