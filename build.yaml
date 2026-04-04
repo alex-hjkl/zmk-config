@@ -1,8 +1,8 @@
-# PinMicro-style clones are often closer to nice!nano v1 than v2.
-# In particular, the ZMK v1/v2 board revisions differ in EXT_POWER polarity.
+# Pinned to ZMK v0.3, before the Zephyr 4.1 board variant migration.
+# Keep the plain nice!nano board to match the user's previously working setup.
 ---
 include:
-  - board: nice_nano@1//zmk
+  - board: nice_nano
     shield: corne_left
-  - board: nice_nano@1//zmk
+  - board: nice_nano
     shield: corne_right
