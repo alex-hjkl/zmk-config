@@ -28,15 +28,16 @@
     };
 
     vbatt: vbatt {
-        compatible = "zmk,battery-voltage-divider";
-        io-channels = <&adc 2>;
-        output-ohms = <2000000>;
-        full-ohms = <(2000000 + 806000)>;
+        compatible = "zmk,battery-nrf-vddh";
     };
 };
 
 &reg1 {
     regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+};
+
+&reg0 {
+    status = "okay";
 };
 
 &adc {
