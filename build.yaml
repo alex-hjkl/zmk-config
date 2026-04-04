@@ -1,5 +1,5 @@
-# Pinned to ZMK v0.3, before the Zephyr 4.1 board variant migration.
-# Keep the plain nice!nano board to match the user's previously working setup.
+# `nice_nano` is the current nice!nano v2 default revision in ZMK.
+# If your controllers are nice!nano v1, change both entries to `nice_nano@1`.
 ---
 include:
   - board: nice_nano
