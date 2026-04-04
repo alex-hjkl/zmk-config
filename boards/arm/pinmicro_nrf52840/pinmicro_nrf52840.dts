@@ -10,6 +10,11 @@
 #include <common/nordic/nrf52840_uf2_boot_mode.dtsi>
 
 / {
+    /*
+     * PinMicro is close to a Pro Micro/nice!nano-style nRF52840 board, but in
+     * practice it needed its own board definition to get BLE, OLED and battery
+     * reporting working together reliably on this Corne build.
+     */
     model = "PinMicro NRF52840";
     compatible = "pinmicro,nrf52840";
 
@@ -28,6 +33,7 @@
     };
 
     vbatt: vbatt {
+        /* This clone reports battery correctly via VDDH instead of an ADC divider. */
         compatible = "zmk,battery-nrf-vddh";
     };
 };
@@ -83,6 +89,7 @@ zephyr_udc0: &usbd {
 };
 
 &flash0 {
+    /* Match the UF2/nRF52840 partition layout used by the upstream nice!nano board. */
     partitions {
         compatible = "fixed-partitions";
         #address-cells = <1>;

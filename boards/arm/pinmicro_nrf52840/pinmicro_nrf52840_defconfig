@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: MIT
 
+# Keep this board minimal: enable ZMK BLE/USB + persistent settings, but avoid
+# the extra power-control behavior from nice!nano//zmk that broke OLED on this clone.
 CONFIG_ARM_MPU=y
 CONFIG_PINCTRL=y
 CONFIG_GPIO=y
