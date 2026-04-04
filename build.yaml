@@ -1,8 +1,8 @@
-# Use the plain nice!nano board and provide Corne underglow via local overlays.
-# If your controllers are nice!nano v1, change both entries to `nice_nano@1`.
+# Use the current ZMK board variant for nice!nano.
+# If your controllers are nice!nano v1, change both entries to `nice_nano@1//zmk`.
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right
