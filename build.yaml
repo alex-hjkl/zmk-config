@@ -1,8 +1,8 @@
 # Use the ZMK board variant on current main so BLE/battery features stay enabled.
-# If your controllers match nice!nano v1 instead, change both entries to `nice_nano@1//zmk`.
+# PinMicro clones can behave closer to nice!nano v1 than the current v2 default.
 ---
 include:
-  - board: nice_nano//zmk
+  - board: nice_nano@1//zmk
     shield: corne_left
-  - board: nice_nano//zmk
+  - board: nice_nano@1//zmk
     shield: corne_right
